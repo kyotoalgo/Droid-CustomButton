@@ -1,0 +1,34 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BBB">
+
+    <com.twincoders.custombuttondemo.widgets.CustomButton
+        android:id="@+id/ok_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="96dp"
+        android:padding="20dp"
+        android:drawablePadding="10dp"
+        android:text="@string/hello_world"
+        local:buttonColor="@color/ok_color"
+        local:iconLeft="@drawable/ic_ok" />
+    
+    <com.twincoders.custombuttondemo.widgets.CustomButton
+        android:id="@+id/cancel_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="176dp"
+        android:padding="20dp"
+        android:drawablePadding="10dp"
+        android:text="@string/hello_world"
+        local:buttonColor="@color/cancel_color"
+        local:iconLeft="@drawable/ic_cancel" />
+
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFF</color>
+    <color name="ok_color">#4C9B64</color>
+    <color name="cancel_color">#EC030A</color>
+</resources>
